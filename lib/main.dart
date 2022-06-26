@@ -27,6 +27,7 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.teal[50],
       appBar: AppBar(
         // The title text which will be shown on the action bar
         title: Text(title),
