@@ -34,6 +34,10 @@ class MyHomePage extends StatelessWidget {
       body: Center(
         child: Text(
           'Hello, I am Sudu.',
+          style: TextStyle(
+            fontSize: 40.0,
+            fontWeight: FontWeight.bold,
+          ),
         ),
       ),
     );
